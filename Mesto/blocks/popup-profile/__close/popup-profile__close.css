@@ -1,0 +1,27 @@
+.popup-profile__close {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -32px;
+    right: -32px;
+    background-image: url(../../../image/Close\ Icon.svg);
+    background-position: center;
+    object-fit: contain;
+    background-color: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    transition: linear 0.5s;
+}
+
+@media (max-width: 590px) {
+    .popup-profile__close {
+        width: 20px;
+        height: 20px;
+        top: -25px;
+        right: -25px;
+    }
+}
+
+.popup-profile__close:hover {
+    opacity: 0.6;
+}

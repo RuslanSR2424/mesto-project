@@ -1,0 +1,14 @@
+.profile__button__add {
+    width: 150px;
+    height: 50px;
+    background-image: url(../../../../image/Vector.png);
+    margin: auto 0px auto auto;
+}
+
+@media  (max-width: 686px) {
+    .profile__button__add {
+        margin: auto 0px auto 0px;
+        width: 282px;
+        height: 50px;
+    }
+}

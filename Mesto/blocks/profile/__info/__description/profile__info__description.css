@@ -1,0 +1,19 @@
+.profile__info__description {
+    font-family: "Inter", "Arial", sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    margin: auto 18px auto auto;
+    line-height: 27.78px;
+    font-size: 18px;
+}
+
+@media (max-width: 500px) {
+    .profile__info__description {
+        font-family: 'Inter', 'Arial', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+}

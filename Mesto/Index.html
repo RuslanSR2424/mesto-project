@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./page/index.css">
+    <title>Mesto</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__logo"></div>
+        <div class="header__line"></div>
+    </header>
+    <main>
+        <section class="profile">
+            <div class="profile__image"></div>
+            <div class="profile__info">
+                <div class="profile__info-text">
+                    <h1 class="profile__info__name">Жак-Ив Кусто</h1>
+                    <p class="profile__info__description">Исследователь океана</p>
+                </div>
+                <button class="profile__button profile__button__edit" type="button"></button>
+            </div>
+            <button class="profile__button profile__button__add" type="button"></button>
+        </section>
+        <section class="elements">
+            <ul class="element-list">
+                <li class="element-list__item">
+                    <img class="element-list__img" src="./Image/Mask Group.jpg" alt="Foto">
+                    <div class="element-list__content">
+                        <h2 class="element-list__title">Карачаевск</h2>
+                        <button class="element-list__like" type="button"></button>
+                    </div>
+                </li>
+                <li class="element-list__item">
+                    <img class="element-list__img" src="./Image/kirill-pershin-1404681-unsplash.png" alt="Foto">
+                    <div class="element-list__content">
+                        <h2 class="element-list__title">Гора Эльбрус</h2>
+                        <button class="element-list__like" type="button"></button>
+                    </div>
+                </li>
+                <li class="element-list__item">
+                    <img class="element-list__img" src="./Image/Mask Group2.jpg" alt="Foto">
+                    <div class="element-list__content">
+                        <h2 class="element-list__title">Домбай</h2>
+                        <button class="element-list__like" type="button"></button>
+                    </div>
+                </li>
+                <li class="element-list__item">
+                    <img class="element-list__img" src="./Image/Mask Group.jpg" alt="Foto">
+                    <div class="element-list__content">
+                        <h2 class="element-list__title">Гора Эльбрус</h2>
+                        <button class="element-list__like" type="button"></button>
+                    </div>
+                </li>
+                <li class="element-list__item">
+                    <img class="element-list__img" src="./Image/kirill-pershin-1404681-unsplash.png" alt="Foto">
+                    <div class="element-list__content">
+                        <h2 class="element-list__title">Домбай</h2>
+                        <button class="element-list__like" type="button"></button>
+                    </div>
+                </li>
+                <li class="element-list__item">
+                    <img class="element-list__img" src="./Image/Mask Group2.jpg" alt="Foto">
+                    <div class="element-list__content">
+                        <h2 class="element-list__title">Карачаево-Черкесия</h2>
+                        <button class="element-list__like" type="button"></button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__label-place">
+            <img class="footer__label" src="./Image/© 2020 Mesto Russia.png" alt="Логотип">
+        </div>
+    </footer>
+    <div class="popup popup__opened">
+        <div class="popup__container">
+            <div class="popup-profile">
+                <button class="popup-profile__close" type="button"></button>
+                <h2 class="popup-profile__title">Редактировать профиль</h2>
+                <form class="popup__form" name="profile">
+                    <input class="popup__item" type="text" placeholder="Жак-Ив Кусто" name="name">
+                    <input class="popup__item" type="text" placeholder="Исследователь океана" name="description">
+                    <button class="popup-profile__save" type="button">Сохранить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

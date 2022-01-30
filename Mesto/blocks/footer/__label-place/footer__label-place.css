@@ -1,0 +1,17 @@
+.footer__label-place {
+    margin: 66px auto auto 0px;
+    max-height: 18px;
+}
+
+@media (max-width: 920px) {
+    .footer__label-place {
+        margin: 66px auto auto 19px;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer__label-place {
+        height: 14px;
+        margin: 48px 19px 36px 19px;
+    }
+}
