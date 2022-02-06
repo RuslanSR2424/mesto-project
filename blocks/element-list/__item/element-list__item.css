@@ -1,5 +1,5 @@
 .element-list__item {
-    width: 282px;
+    max-width: 500px;
     height: 361px;
     border-radius: 4%;
     overflow: hidden;

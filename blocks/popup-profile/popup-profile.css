@@ -1,14 +1,15 @@
 .popup-profile {
-    height: 330px;
-    width: 430px;
-    background-color: #FFF;
-    border-radius: 5%;
-    position: relative;
+  min-height: 330px;
+  width: 430px;
+  background-color: #FFF;
+  border-radius: 5%;
+  position: relative;
+  margin: 30% auto;
 }
 
 @media (max-width: 590px) {
-    .popup-profile {
-      height: 332px;
-      width: 282px;
-    }
+  .popup-profile {
+    height: 332px;
+    width: 282px;
+  }
 }

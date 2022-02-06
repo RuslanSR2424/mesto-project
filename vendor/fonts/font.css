@@ -21,3 +21,11 @@
     url(./Inter-SemiBold.woff2) format('woff2');
     font-weight: 600;
 }
+
+@font-face {
+    font-family: "Inter";
+    src: 
+    url(./Inter-SemiBold.woff) format('woff'),
+    url(./Inter-SemiBold.woff2) format('woff2');
+    font-weight: 900;
+}

@@ -1,7 +1,7 @@
 .element-list__like {
     height: 22px;
     width: 19px;
-    background-image: url(../../../image/Group.svg);
+    background-image: url(../../../image/like.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat; 
@@ -9,11 +9,6 @@
     border: none;
     background-color: #FFF;
     transition: linear 0.5s;
-}
-
-.element-list__like:active {
-    background-image: url(../../../Image/Union.png);
-    opacity: 1;
 }
 
 .element-list__like:hover {
