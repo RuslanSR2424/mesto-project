@@ -8,13 +8,12 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    font-style: normal;
 }
 
 
 @media (max-width: 500px) {
     .profile__user-name {
-        font-style: normal;
-        font-weight: 500;
         font-size: 27px;
         line-height: 33px;
         text-align: center;

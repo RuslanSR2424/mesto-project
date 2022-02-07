@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-position: center;
     transition: linear 0.5s;
-    border-radius: 2%;
+    border-radius: 2px;
 }
 
 @media  (max-width: 686px) {
